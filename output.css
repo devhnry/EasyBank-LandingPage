@@ -730,6 +730,10 @@ html {
   margin-bottom: 88px;
 }
 
+.mb-\[8px\] {
+  margin-bottom: 8px;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -841,6 +845,10 @@ html {
   height: auto;
 }
 
+.h-\[72px\] {
+  height: 72px;
+}
+
 .w-1 {
   width: 0.25rem;
 }
@@ -855,6 +863,10 @@ html {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[72px\] {
+  width: 72px;
 }
 
 .max-w-\[1100px\] {
@@ -1380,6 +1392,14 @@ html {
 
 .justify-items-stretch {
   justify-items: stretch;
+}
+
+.gap-\[16px\] {
+  gap: 16px;
+}
+
+.gap-\[32px\] {
+  gap: 32px;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2053,6 +2073,18 @@ html {
   padding-bottom: 32px;
 }
 
+.pb-\[\] {
+  padding-bottom: ;
+}
+
+.pb-\[8\] {
+  padding-bottom: 8;
+}
+
+.pb-\[8px\] {
+  padding-bottom: 8px;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2127,6 +2159,14 @@ html {
 
 .text-\[32px\] {
   font-size: 32px;
+}
+
+.text-\[28px\] {
+  font-size: 28px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
 }
 
 .font-bold {
@@ -2215,6 +2255,14 @@ html {
 
 .leading-\[37\.6px\] {
   line-height: 37.6px;
+}
+
+.leading-\[27\] {
+  line-height: 27;
+}
+
+.leading-\[28px\] {
+  line-height: 28px;
 }
 
 .tracking-\[-0\.71px\] {
