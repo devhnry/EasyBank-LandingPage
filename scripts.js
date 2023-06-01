@@ -5,7 +5,7 @@ const menuClose = document.querySelector(".menu-close");
 const mobileNav = document.querySelector(".mobile-nav");
 const overlay = document.querySelector(".overlay");
 
-const openNav = function () {
+const openNav = () => {
   menuOpen.classList.add("hidden");
   menuClose.classList.remove("hidden");
   overlay.classList.remove("hidden");
@@ -20,7 +20,7 @@ const openNav = function () {
   document.querySelector("body").style.overflowY = "hidden";
 };
 
-const closeNav = function () {
+const closeNav = () => {
   menuOpen.classList.remove("hidden");
   menuClose.classList.add("hidden");
   mobileNav.classList.remove("scaleUp");
