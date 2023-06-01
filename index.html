@@ -11,8 +11,8 @@
     <title>EasyBank Landing Page</title>
   </head>
   <body class="bg-neutral-200 font-main overflow-x-hidden">
-    <header class="bg-white">
-      <div class="flex justify-between items-center px-[22px] py-[24px] md:py-0  max-w-[1100px] mx-auto">
+    <header class="bg-white absolute top-0 left-0 right-0 h-auto z-10 w-full">
+      <div class="flex justify-between items-center px-[22px] py-[24px] md:py-0  max-w-[1100px] mx-auto sticky z-10">
         <img src="./assets/img/logo/logo.svg" alt="">
         <div>
           <ul role="list" class="hidden md:flex justify-between space-x-[24px] text-neutral-400 text-[14px]">
@@ -24,7 +24,7 @@
           </ul>
         </div>
   
-        <div class="fadein hidden overlay h-[100vh] w-full absolute top-[65px] left-0 right-0 bottom-0 bg-gradient-to-b from-dark-blue to-white"></div>
+        <div class="fadein hidden overlay h-[100vh] w-full absolute top-[63px] left-0 right-0 bottom-0 bg-gradient-to-b from-dark-blue to-white opacity-80"></div>
   
           <div class="mobile-nav scaleUp hidden fixed top-[80px] left-[50%]">
             <ul role="list" class="absolute left-[50%] -translate-x-[50%] text-center bg-white px-[130px] py-[32px] rounded-[5px] text-dark-blue w-[90vw] mx-auto">
@@ -45,8 +45,23 @@
         </div>
       </div>
     </header>
+
     <main>
+      <div class="home mb-[88px]" id="home">
+        <div class="imgbox">
+          <img class="w-full transition-transform img" src="./assets/img/image-mockups.png" alt="">
+        </div>
+
+        <div class="text-center">
+          <h1 class="text-[40px] sm:text-[46px] leading-[47px] font-light text-dark-blue tracking-[-0.71px] pb-[16px] transition-transform">Next generation <br> digital banking </h1>
+
+          <p class="text-neutral-400 text-[15px] leading-[25px] w-[330px] sm:w-[400px] mx-auto pb-[32px] transition-transform">Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
+          <button class="bg-gradient-to-br from-green to-cyan text-white px-[32px] py-[12px] rounded-[50vw] font-bold text-[14px] hover:from-green-light hover:to-cyan-light transition-colors duration-[0.1s]">Request Invite</button>
+        </div>
+      </div>
+
     </main>
+
     <footer></footer>
     <script type="module" src="/scripts.js"></script>
   </body>

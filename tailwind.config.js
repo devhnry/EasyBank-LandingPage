@@ -4,8 +4,8 @@ const plugin = require("tailwindcss/plugin");
 export default {
   content: ["./**/*.{html,js}"],
   theme: {
-    screens : {
-      sm : "600px",
+    screens: {
+      sm: "600px",
       md: "768px",
     },
     colors: {
@@ -22,12 +22,11 @@ export default {
       white: " hsl(0, 0%, 100%)",
     },
 
-    fontFamily : {
-      main : ['Public Sans', 'sans-serif']
+    fontFamily: {
+      main: ["Public Sans", "sans-serif"],
     },
 
-    extend: {
-    },
+    extend: {},
   },
   plugins: [
     plugin(function ({ addBase }) {

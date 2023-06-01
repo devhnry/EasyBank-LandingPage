@@ -14,11 +14,11 @@
 
 @keyframes fadeIn{
   0% { opacity: 0; }
-  100% { opacity: 1; }
+  100% { opacity: 80%; }
 }
 
 @keyframes fadeOut{
-  0% { opacity: 1; }
+  0% { opacity: 80%; }
   100% { opacity: 0; }
 }
 
@@ -45,4 +45,17 @@
 
 .gradient-border:hover::after{
     opacity: 1;
+}
+
+.imgbox{
+    background: url("./assets/img/bg-intro-mobile.svg") no-repeat top;
+    background-size: cover;
+    padding: 0 15px;
+    margin-bottom: 40px;
+}
+
+.imgbox .img{
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: bottom;
 }
