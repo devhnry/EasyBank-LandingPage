@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="ltr">
+<html lang="en" class="ltr scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./assets/img/favicon-32x32.png" />
@@ -11,7 +11,7 @@
     <title>EasyBank Landing Page</title>
   </head>
   <body class="bg-neutral-200 font-main overflow-x-hidden">
-    <header class="bg-white absolute top-0 left-0 right-0 h-auto z-10 w-full">
+    <header class="bg-white absolute top-0 left-0 right-0 h-auto z-10 w-full shadow-lg">
       <div class="flex justify-between items-center px-[22px] py-[24px] md:py-0  max-w-[1100px] mx-auto sticky z-10">
         <img src="./assets/img/logo/logo.svg" alt="">
         <div>
@@ -24,7 +24,7 @@
           </ul>
         </div>
   
-        <div class="fadein hidden overlay h-[100vh] w-full absolute top-[63px] left-0 right-0 bottom-0 bg-gradient-to-b from-dark-blue to-white opacity-80"></div>
+        <div class="overlay fadein hidden h-[100vh] w-full absolute top-[63px] left-0 right-0 bottom-0 bg-gradient-to-b from-dark-blue to-dark-blue-light opacity-80"></div>
   
           <div class="mobile-nav scaleUp hidden fixed top-[80px] left-[50%]">
             <ul role="list" class="absolute left-[50%] -translate-x-[50%] text-center bg-white px-[130px] py-[32px] rounded-[5px] text-dark-blue w-[90vw] mx-auto">
@@ -142,7 +142,57 @@
 
     </main>
 
-    <footer></footer>
+    <footer class="bg-dark-blue px-[78px] py-[40px] text-white text-[15px]">
+      <div class="grid place-items-center text-center">
+        <div>
+          <div class="grid gap-[32px]">
+            <img class="mx-auto" src="./assets/img/logo/logo__footer.svg" alt="">
+            <div class="flex gap-[16px]">
+              <a class="inline-block" href="">
+                <span class="sr-only">Link to Facebook</span>
+                <img class="h-[24px] w-auto " src="./assets/img/icon-facebook.svg" alt="">
+              </a> 
+              <a class="inline-block" href="">
+                <span class="sr-only">Link to Youtube</span>
+                <img class="h-[24px] w-auto" src="./assets/img/icon-youtube.svg" alt="">
+              </a> 
+              <a class="inline-block" href="">
+                <span class="sr-only">Link to Twitter</span>
+                <img class="h-[24px] w-auto" src="./assets/img/icon-twitter.svg" alt="">
+              </a> 
+              <a class="inline-block" href="">
+                <span class="sr-only">Link to Pinterest</span>
+                <img class="h-[24px] w-auto" src="./assets/img/icon-pinterest.svg" alt="">
+              </a> 
+              <a class="inline-block" href="">
+                <span class="sr-only">Link to Instagram</span>
+                <img class="h-[24px] w-auto" src="./assets/img/icon-instagram.svg" alt="">
+              </a> 
+            </div>
+          </div>
+          <div class="grid gap-[8px] py-[32px]">
+            <div>
+              <ul class="grid gap-[8px]">
+                <li><a class="hover:text-green transition-colors duration-200 ease-in-out" href="">About Us</a></li>
+                <li><a class="hover:text-green transition-colors duration-200 ease-in-out" href="">Contact</a></li>
+                <li><a class="hover:text-green transition-colors duration-200 ease-in-out" href="">Blog</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul class="grid gap-[8px]">
+                <li><a class="hover:text-green transition-colors duration-200 ease-in-out" href="">Careers</a></li>
+                <li><a class="hover:text-green transition-colors duration-200 ease-in-out" href="">Support</a></li>
+                <li><a class="hover:text-green transition-colors duration-200 ease-in-out" href="">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="grid gap-[24px]">
+          <button class="bg-gradient-to-br from-green to-cyan text-white px-[32px] py-[12px] rounded-[50vw] font-bold text-[14px] hover:from-green-light hover:to-cyan-light transition-colors duration-[0.1s]">Request Invite</button>
+          <p class="text-[14px] text-neutral-400">© Easybank. All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
     <script type="module" src="/scripts.js"></script>
   </body>
 </html>

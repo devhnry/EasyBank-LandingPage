@@ -11,7 +11,7 @@ const openNav = () => {
   overlay.classList.remove("hidden");
   setTimeout(() => {
     overlay.classList.remove("hidden");
-  }, 500);
+  }, 400);
   mobileNav.classList.remove("hidden");
   mobileNav.classList.add("scaleUp");
   mobileNav.classList.remove("scaleDown");
@@ -30,7 +30,7 @@ const closeNav = () => {
   setTimeout(() => {
     mobileNav.classList.add("hidden");
     overlay.classList.add("hidden");
-  }, 500);
+  }, 400);
   document.querySelector("body").style.overflowY = "visible";
 };
 

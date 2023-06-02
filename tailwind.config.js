@@ -10,6 +10,7 @@ export default {
     },
     colors: {
       "dark-blue": "hsl(233, 26%, 24%)",
+      "dark-blue-light" : "hsla(233, 26%, 24%, 0)",
       green: "hsl(136, 65%, 51%)",
       cyan: "hsl(192, 70%, 51%)",
 
