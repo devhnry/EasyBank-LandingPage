@@ -649,12 +649,24 @@ html {
   top: 0px;
 }
 
-.top-\[63px\] {
-  top: 63px;
+.top-\[65px\] {
+  top: 65px;
 }
 
 .top-\[80px\] {
   top: 80px;
+}
+
+.top-\[66px\] {
+  top: 66px;
+}
+
+.top-\[66\.5px\] {
+  top: 66.5px;
+}
+
+.top-\[67\.5px\] {
+  top: 67.5px;
 }
 
 .isolate {
@@ -710,20 +722,6 @@ html {
   margin-right: auto;
 }
 
-.my-\[40px\] {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.mx-\[78\] {
-  margin-left: 78;
-  margin-right: 78;
-}
-
-.mb-\[14px\] {
-  margin-bottom: 14px;
-}
-
 .mb-\[56px\] {
   margin-bottom: 56px;
 }
@@ -734,6 +732,10 @@ html {
 
 .mb-\[8px\] {
   margin-bottom: 8px;
+}
+
+.ml-auto {
+  margin-left: auto;
 }
 
 .mt-2 {
@@ -847,12 +849,16 @@ html {
   height: 100vh;
 }
 
+.h-\[24px\] {
+  height: 24px;
+}
+
 .h-auto {
   height: auto;
 }
 
-.h-\[24px\] {
-  height: 24px;
+.h-full {
+  height: 100%;
 }
 
 .w-1 {
@@ -867,20 +873,28 @@ html {
   width: 90vw;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-auto {
   width: auto;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-\[1100px\] {
   max-width: 1100px;
 }
 
+.max-w-\[164px\] {
+  max-width: 164px;
+}
+
 .max-w-\[327px\] {
   max-width: 327px;
+}
+
+.max-w-\[330px\] {
+  max-width: 330px;
 }
 
 .flex-shrink {
@@ -1404,6 +1418,10 @@ html {
   justify-items: stretch;
 }
 
+.gap-\[14px\] {
+  gap: 14px;
+}
+
 .gap-\[16px\] {
   gap: 16px;
 }
@@ -1863,6 +1881,11 @@ html {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-dark-blue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(233 26% 24% / var(--tw-bg-opacity));
+}
+
 .bg-neutral-200 {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 98% / var(--tw-bg-opacity));
@@ -1876,11 +1899,6 @@ html {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
-}
-
-.bg-dark-blue {
-  --tw-bg-opacity: 1;
-  background-color: hsl(233 26% 24% / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b {
@@ -2054,6 +2072,11 @@ html {
   padding-right: 32px;
 }
 
+.px-\[78px\] {
+  padding-left: 78px;
+  padding-right: 78px;
+}
+
 .py-\[12px\] {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -2074,6 +2097,11 @@ html {
   padding-bottom: 32px;
 }
 
+.py-\[40px\] {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .py-\[64px\] {
   padding-top: 64px;
   padding-bottom: 64px;
@@ -2082,21 +2110,6 @@ html {
 .py-\[88px\] {
   padding-top: 88px;
   padding-bottom: 88px;
-}
-
-.px-\[78\] {
-  padding-left: 78;
-  padding-right: 78;
-}
-
-.py-\[40px\] {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.px-\[78px\] {
-  padding-left: 78px;
-  padding-right: 78px;
 }
 
 .pb-\[16px\] {
@@ -2113,6 +2126,10 @@ html {
 
 .pb-\[32px\] {
   padding-bottom: 32px;
+}
+
+.pl-\[10px\] {
+  padding-left: 10px;
 }
 
 .text-left {
@@ -2311,6 +2328,10 @@ html {
   letter-spacing: -0.71px;
 }
 
+.tracking-tighter {
+  letter-spacing: -0.05em;
+}
+
 .text-\[\#336699\]\/\[\.35\] {
   color: rgb(51 102 153 / .35);
 }
@@ -2328,10 +2349,6 @@ html {
 .text-white {
   --tw-text-opacity: 1;
   color: hsl(0 0% 100% / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .underline {
@@ -2816,11 +2833,6 @@ html {
   }
 }
 
-.hover\:bg-green:hover {
-  --tw-bg-opacity: 1;
-  background-color: hsl(136 65% 51% / var(--tw-bg-opacity));
-}
-
 .hover\:from-green-light:hover {
   --tw-gradient-from:  hsl(136, 65%, 75%) var(--tw-gradient-from-position);
   --tw-gradient-to: hsl(136 65% 75% / 0) var(--tw-gradient-to-position);
@@ -2829,10 +2841,6 @@ html {
 
 .hover\:to-cyan-light:hover {
   --tw-gradient-to: hsl(192, 70%, 75%) var(--tw-gradient-to-position);
-}
-
-.hover\:fill-green:hover {
-  fill: hsl(136, 65%, 51%);
 }
 
 .hover\:font-bold:hover {
@@ -2868,8 +2876,16 @@ html {
 }
 
 @media (min-width: 600px) {
+  .sm\:hidden {
+    display: none;
+  }
+
   .sm\:w-\[400px\] {
     width: 400px;
+  }
+
+  .sm\:text-\[36px\] {
+    font-size: 36px;
   }
 
   .sm\:text-\[46px\] {
@@ -2894,8 +2910,16 @@ html {
     display: none;
   }
 
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .md\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 }
