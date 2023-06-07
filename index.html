@@ -142,56 +142,58 @@
 
     </main>
 
-    <footer class="bg-dark-blue px-[78px] py-[40px] text-white text-[15px]">
-      <div class="grid place-items-center text-center md:grid-cols-2">
-        <div class="">
-          <div class="grid gap-[32px]">
-            <img class="mx-auto" src="./assets/img/logo/logo__footer.svg" alt="">
-            <div class="flex gap-[16px]">
-              <a class="inline-block" href="">
-                <span class="sr-only">Link to Facebook</span>
-                <img class="h-[24px] w-auto " src="./assets/img/icon-facebook.svg" alt="">
-              </a> 
-              <a class="inline-block" href="">
-                <span class="sr-only">Link to Youtube</span>
-                <img class="h-[24px] w-auto" src="./assets/img/icon-youtube.svg" alt="">
-              </a> 
-              <a class="inline-block" href="">
-                <span class="sr-only">Link to Twitter</span>
-                <img class="h-[24px] w-auto" src="./assets/img/icon-twitter.svg" alt="">
-              </a> 
-              <a class="inline-block" href="">
-                <span class="sr-only">Link to Pinterest</span>
-                <img class="h-[24px] w-auto" src="./assets/img/icon-pinterest.svg" alt="">
-              </a> 
-              <a class="inline-block" href="">
-                <span class="sr-only">Link to Instagram</span>
-                <img class="h-[24px] w-auto" src="./assets/img/icon-instagram.svg" alt="">
-              </a> 
+    <footer class="footer bg-dark-blue py-[40px] md:py-[48px] px-[78px] text-neutral-300 text-[15px] text-center" >
+      <div class="md:flex md:justify-between max-w-[1150px] mx-auto">
+        <div class="grid md:grid-cols-3 content-start">
+          <div class="grid gap-[1.8rem] mx-auto mb-[1.8rem] md:mb-0 lg:pr-[1.5rem]" >
+            <img class="footer__logo mx-auto md:mx-0" src="./assets/img/logo/logo__footer.svg" alt="" />
+            <div>
+              <ul class="flex gap-[1rem]">
+                <li>
+                  <a href="#"> <span class="sr-only">Facebook</span> <img class="footer__icon text-white hover:text-green transition-colors duration-250 h-[24px] md:h-[20px] " src="./assets/img/icon-facebook.svg" alt="" /> </a>
+                </li>
+                <li>
+                  <a href="#"> <span class="sr-only">Youtube</span> <img class="footer__icon hover:text-green transition-colors duration-250 h-[24px] md:h-[20px] " src="./assets/img/icon-youtube.svg" alt="" /> </a>
+                </li>
+                <li>
+                  <a href="#"> <span class="sr-only">Twitter</span> <img class="footer__icon hover:text-green transition-colors duration-250 h-[24px] md:h-[20px] " src="./assets/img/icon-twitter.svg" alt="" /> </a>
+                </li>
+                <li>
+                  <a href="#"> <span class="sr-only">Pinterest</span> <img class="footer__icon hover:text-green transition-colors duration-250 h-[24px] md:h-[20px] " src="./assets/img/icon-pinterest.svg" alt="" /> </a>
+                </li>
+                <li>
+                  <a href="#"> <span class="sr-only">Instagram</span> <img class="footer__icon hover:text-green transition-colors duration-250 h-[24px] md:h-[20px] " src="./assets/img/icon-instagram.svg" alt="" /> </a>
+                </li>
+              </ul>
             </div>
           </div>
-          <div class="grid gap-[8px] py-[32px]">
-            <div>
-              <ul class="grid gap-[8px]">
-                <li><a class="hover:text-green transition-colors duration-200 ease-in-out" href="">About Us</a></li>
-                <li><a class="hover:text-green transition-colors duration-200 ease-in-out" href="">Contact</a></li>
-                <li><a class="hover:text-green transition-colors duration-200 ease-in-out" href="">Blog</a></li>
-              </ul>
-            </div>
-            <div>
-              <ul class="grid gap-[8px]">
-                <li><a class="hover:text-green transition-colors duration-200 ease-in-out" href="">Careers</a></li>
-                <li><a class="hover:text-green transition-colors duration-200 ease-in-out" href="">Support</a></li>
-                <li><a class="hover:text-green transition-colors duration-200 ease-in-out" href="">Privacy Policy</a></li>
-              </ul>
-            </div>
+
+          <div class="mx-auto">
+            <ul class="grid gap-[8px] md:text-left mb-[8px] md:mb-0">
+              <li><a class="hover:text-green font-light" href="#">About Us</a></li>
+              <li><a class="hover:text-green font-light" href="#">Contact</a></li>
+              <li><a class="hover:text-green font-light" href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="mx-auto">
+            <ul class="grid gap-[8px] md:text-left mb-[1.8rem] md:mb-0">
+              <li><a class="hover:text-green font-light" href="#">Careers</a></li>
+              <li><a class="hover:text-green font-light" href="#">Support</a></li>
+              <li><a class="hover:text-green font-light" href="#">Privacy Policy</a></li>
+            </ul>
           </div>
         </div>
+
         <div class="grid gap-[24px]">
-          <button class="bg-gradient-to-br from-green to-cyan text-white px-[32px] py-[12px] rounded-[50vw] font-bold text-[14px] hover:from-green-light hover:to-cyan-light transition-colors duration-[0.1s] max-w-[164px] ml-auto">Request Invite</button>
-          <p class="text-[14px] text-neutral-400">© Easybank. All Rights Reserved</p>
+          <a href="" class="bg-gradient-to-br from-green to-cyan text-white px-[32px] py-[12px] rounded-[50vw] font-bold text-[14px] hover:from-green-light hover:to-cyan-light transition-colors duration-[0.1s] max-w-[164px] mx-auto md:mr-0 w-fit" >Request Invite</a>
+          <p class="text-neutral-400 md:text-right"> © Easybank. All Rights Reserved </p>
         </div>
       </div>
+
+      <div class="attribution | sr-only">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="blank">Frontend Mentor</a>.Coded by <a href="#">devhnry</a>.
+      </div>
+
     </footer>
     <script type="module" src="/scripts.js"></script>
   </body>

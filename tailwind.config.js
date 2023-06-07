@@ -7,6 +7,7 @@ export default {
     screens: {
       sm: "600px",
       md: "768px",
+      lg: "1024px"
     },
     colors: {
       "dark-blue": "hsl(233, 26%, 24%)",
