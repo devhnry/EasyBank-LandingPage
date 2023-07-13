@@ -12,7 +12,7 @@
   </head>
   <body class="bg-neutral-200 font-main overflow-x-hidden">
     <header class="bg-white absolute top-0 left-0 right-0 h-auto z-10 w-full shadow-lg">
-      <div class="flex justify-between items-center px-[22px] py-[24px] md:py-0  max-w-[1100px] mx-auto sticky z-10">
+      <div class="flex justify-between items-center px-[22px] py-[24px] md:py-0  max-w-[1100px] mx-auto sticky z-10 lg:px-0">
         <img src="./assets/img/logo/logo.svg" alt="">
         <div>
           <ul role="list" class="hidden md:flex justify-between space-x-[24px] text-neutral-400 text-[14px]">
@@ -47,15 +47,16 @@
     </header>
 
     <main>
-      <section class="home mb-[88px]" id="home">
+      <section class="home mb-[88px] mds:mb-0 mds:flex mds:flex-row-reverse" id="home">
         <div class="imgbox">
           <img class="w-full transition-transform img" src="./assets/img/image-mockups.png" alt="">
         </div>
 
-        <div class="text-center">
-          <h1 class="text-[40px] sm:text-[46px] leading-[47px] font-light text-dark-blue tracking-[-0.71px] pb-[16px] transition-transform">Next generation <br> digital banking </h1>
+        <div class="text-center mds:pt-[250px] mds:pb-[170px] mds:text-left lg:mr-[46px]">
+          <h1 class="text-[40px] sm:text-[46px] leading-[47px] font-light text-dark-blue tracking-[-0.71px] pb-[16px] md:pb-[20px] lg:pb-[24px] mds:leading-[64px] transition-transform md:text-[50px] mds:text-[56px]">Next generation <br> digital banking </h1>
 
-          <p class="text-neutral-400 text-[15px] leading-[25px] w-[330px] sm:w-[400px] mx-auto pb-[32px] transition-transform">Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
+          <p class="text-neutral-400 text-[15px] leading-[25px] w-[330px] sm:w-[400px] mx-auto pb-[32px] lg:pb-[36px] transition-transform lg:text-[18px] lg:font-light">Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
+
           <button class="bg-gradient-to-br from-green to-cyan text-white px-[32px] py-[12px] rounded-[50vw] font-bold text-[14px] hover:from-green-light hover:to-cyan-light transition-colors duration-[0.1s]">Request Invite</button>
         </div>
       </section>
@@ -142,27 +143,27 @@
 
     </main>
 
-    <footer class="footer bg-dark-blue py-[40px] md:py-[48px] px-[78px] text-neutral-300 text-[15px] text-center" >
+    <footer class="footer bg-dark-blue py-[40px] md:py-[48px] px-[75px] text-neutral-300 text-[15px] text-center" >
       <div class="md:flex md:justify-between max-w-[1100px] mx-auto">
         <div class="grid md:grid-cols-3 content-start">
           <div class="grid gap-[1.8rem] mx-auto mb-[1.8rem] md:mb-0 lg:pr-[1.5rem]" >
             <img class="footer__logo mx-auto md:mx-0" src="./assets/img/logo/logo__footer.svg" alt="" />
             <div>
-              <ul class="flex gap-[1rem]">
+              <ul class="flex gap-[1rem] md:gap-[.5rem] lg:gap-[1rem]">
                 <li>
-                  <a href="#"> <span class="sr-only">Facebook</span> <img class="footer__icon text-white hover:text-green transition-colors duration-250 h-[24px] md:h-[20px] " src="./assets/img/icon-facebook.svg" alt="" /> </a>
+                  <a href="#"> <span class="sr-only">Facebook</span> <img class="footer__icon text-white h-[24px] md:h-[20px] " src="./assets/img/icon-facebook.svg" alt="" /> </a>
                 </li>
                 <li>
-                  <a href="#"> <span class="sr-only">Youtube</span> <img class="footer__icon hover:text-green transition-colors duration-250 h-[24px] md:h-[20px] " src="./assets/img/icon-youtube.svg" alt="" /> </a>
+                  <a href="#"> <span class="sr-only">Youtube</span> <img class="footer__icon h-[24px] md:h-[20px] " src="./assets/img/icon-youtube.svg" alt="" /> </a>
                 </li>
                 <li>
-                  <a href="#"> <span class="sr-only">Twitter</span> <img class="footer__icon hover:text-green transition-colors duration-250 h-[24px] md:h-[20px] " src="./assets/img/icon-twitter.svg" alt="" /> </a>
+                  <a href="#"> <span class="sr-only">Twitter</span> <img class="footer__icon h-[24px] md:h-[20px] " src="./assets/img/icon-twitter.svg" alt="" /> </a>
                 </li>
                 <li>
-                  <a href="#"> <span class="sr-only">Pinterest</span> <img class="footer__icon hover:text-green transition-colors duration-250 h-[24px] md:h-[20px] " src="./assets/img/icon-pinterest.svg" alt="" /> </a>
+                  <a href="#"> <span class="sr-only">Pinterest</span> <img class="footer__icon  h-[24px] md:h-[20px] " src="./assets/img/icon-pinterest.svg" alt="" /> </a>
                 </li>
                 <li>
-                  <a href="#"> <span class="sr-only">Instagram</span> <img class="footer__icon hover:text-green transition-colors duration-250 h-[24px] md:h-[20px] " src="./assets/img/icon-instagram.svg" alt="" /> </a>
+                  <a href="#"> <span class="sr-only">Instagram</span> <img class="footer__icon h-[24px] md:h-[20px] " src="./assets/img/icon-instagram.svg" alt="" /> </a>
                 </li>
               </ul>
             </div>

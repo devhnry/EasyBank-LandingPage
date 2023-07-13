@@ -7,6 +7,7 @@ export default {
     screens: {
       sm: "600px",
       md: "768px",
+      mds : "992px",
       lg: "1150px"
     },
     colors: {

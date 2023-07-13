@@ -59,3 +59,49 @@
     object-fit: cover;
     object-position: bottom;
 }
+
+@media (min-width: 992px){
+  .imgbox{
+      background: url("./assets/img/bg-intro-desktop.svg") no-repeat left;
+      width: 57%;
+      margin: 0;
+      padding: 0;
+  }
+
+  .imgbox .img{
+      width: 767px;
+      position: absolute;
+      right: -10vw;
+      aspect-ratio: unset;
+      /* transform: translate(250px, -10px), scale(1); */
+  }
+}
+
+@media (min-width: 992px){
+  .imgbox .img{
+    position: absolute;
+    top: -20px;
+    right: -30vw;
+  }
+}
+
+@media (min-width: 1024px){
+  .imgbox .img{
+    position: absolute;
+    top: -30px;
+    right: -20vw;
+  }
+}
+
+@media (min-width: 1150px){
+  .imgbox .img{
+    position: absolute;
+    top: -40px;
+    right: -10vw;
+  }
+}
+
+.footer__icon:hover {
+  filter: invert(60%) sepia(63%) saturate(464%) hue-rotate(106deg) brightness(100%) contrast(88%);
+  transition: all 0.2s ease-in-out;
+}
