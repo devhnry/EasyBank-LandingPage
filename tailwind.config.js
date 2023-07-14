@@ -8,7 +8,8 @@ export default {
       sm: "600px",
       md: "768px",
       mds : "992px",
-      lg: "1150px"
+      lg: "1150px",
+      xl: "1300px"
     },
     colors: {
       "dark-blue": "hsl(233, 26%, 24%)",

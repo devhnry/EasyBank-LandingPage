@@ -58,6 +58,7 @@
     aspect-ratio: 1 / 1;
     object-fit: cover;
     object-position: bottom;
+    transition: all 0.1s ease-in-out;
 }
 
 @media (min-width: 992px){
@@ -88,7 +89,7 @@
 @media (min-width: 1024px){
   .imgbox .img{
     position: absolute;
-    top: -30px;
+    top: -65px;
     right: -20vw;
   }
 }
@@ -96,7 +97,16 @@
 @media (min-width: 1150px){
   .imgbox .img{
     position: absolute;
-    top: -40px;
+    top: -65px;
+    right: -10vw;
+  }
+}
+
+@media (min-width: 1300px){
+  .imgbox .img{
+    width: 820px;
+    position: absolute;
+    top: -65px;
     right: -10vw;
   }
 }
